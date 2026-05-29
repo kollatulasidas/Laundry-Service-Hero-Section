@@ -73,18 +73,23 @@
     width: 18%;               
     text-align: right;
     line-height: normal;
+    background-color: #c8e0f0;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: #3498db;
 }
 
-.user span {
+/* .user span {
     display: inline-block;
     vertical-align: middle;
-    background: #dff1ff;
+    background: #c4dff4;
     padding: 8px 16px;       
     border-radius: 10px;
     color: #3498db;
     font-size: 14px;
     font-weight: bold;
-}
+} */
 
 
 /* ── HERO SECTION ── */
@@ -118,6 +123,7 @@
 
 .left h1 span {
     color: #3498db;
+    
 }
 
 .left p {
@@ -158,3 +164,62 @@
     vertical-align: middle;                      
 }
 
+/* ── MOBILE VIEW BREAKPOINT (Add at the very end) ── */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        white-space: nowrap;
+    }
+
+    .logo {
+        width: 40%; 
+        padding: 10px;
+    }
+
+    
+    .nav {
+        display: none;
+    }
+
+    .user {
+        width: 58%; 
+    }
+
+
+   
+    .hero {
+        min-height: auto;
+    }
+
+    
+    .left,
+    .right {
+        display: block;
+        width: 100%;
+    }
+
+    .left {
+        padding: 30px 20px; 
+    }
+
+    .left h1 {
+        font-size: 28px; 
+    }
+
+    
+    .left button {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .right {
+        padding: 20px 0 50px 0;
+    }
+
+    .right img {
+        width: 80%; 
+    }
+}
