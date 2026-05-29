@@ -166,7 +166,7 @@
 
 /* ── MOBILE VIEW BREAKPOINT (Add at the very end) ── */
 
-@media (max-width: 768px) {
+@media (max-width: 444px) {
 
     .navbar {
         white-space: nowrap;
