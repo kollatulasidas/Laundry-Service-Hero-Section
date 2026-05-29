@@ -1,26 +1,26 @@
-
-# 🧺 Laundry Service – Hero Section
+# 🧺 Laundry Service – Responsive Hero Section
 
 A responsive Laundry Service landing page built using pure HTML5 and CSS3.
-This project focuses on mastering layout structuring with `display: inline-block`, responsive design techniques, and clean UI styling without using Flexbox, Grid, or external frameworks.
+
+This project focuses on building clean and responsive layouts using modern CSS techniques such as Flexbox, media queries, responsive units, hover animations, and structured UI design principles.
 
 ---
 
 ## 📋 Project Overview
 
-| Detail            | Information             |
-| ----------------- | ----------------------- |
-| Project Type      | Frontend Landing Page   |
-| Technologies Used | HTML5, CSS3             |
-| Layout Technique  | `display: inline-block` |
-| Responsive Units  | `vw`, `vh`, `%`         |
-| Responsive Design | Media Queries           |
+| Detail            | Information           |
+| ----------------- | --------------------- |
+| Project Type      | Frontend Landing Page |
+| Technologies Used | HTML5, CSS3           |
+| Layout Technique  | Flexbox               |
+| Responsive Units  | `%`, `vh`, `rem`      |
+| Responsive Design | Media Queries         |
 
 ---
 
 ## 🗂️ Project Structure
 
-```bash id="a7p9x2"
+```bash
 project/
 ├── index.html
 ├── style.css
@@ -35,93 +35,126 @@ project/
 
 * Logo aligned to the left
 * Navigation links centered
-* Username section aligned to the right
-* Built entirely using:
+* User section aligned to the right
+* Built using:
 
-  * `display: inline-block`
-  * `vertical-align: middle`
-* No Flexbox or float properties used
+  * `display: flex`
+  * `justify-content`
+  * `align-items`
+* Smooth hover animations for links and buttons
 
 ---
 
 ### 🎯 Hero Section
 
-* Two-column responsive layout
+* Responsive two-column layout
 * Left section contains:
 
-  * Heading
+  * Main heading
   * Description text
   * CTA button
 * Right section contains:
 
   * Laundry service illustration
 * `max-width: 1400px` prevents excessive stretching on large screens
-* Responsive spacing and typography using viewport units
+* Proper spacing using `gap`
+* Fully responsive across desktop, tablet, and mobile devices
 
 ---
 
 ### ✨ Hover Effects
 
-* Navigation links:
+#### Navigation Links
 
-  * Blue background
-  * White text on hover
-* CTA button:
+* Blue background on hover
+* White text transition
+* Rounded hover effect
 
-  * Background darkens
-  * Slight zoom effect using `transform: scale()`
-* Smooth animations using `transition`
+#### CTA Button
+
+* Darker background on hover
+* Smooth hover animation
+* Slight lift effect using `transform`
+
+#### User Button
+
+* Color transition
+* Small scaling animation
 
 ---
 
-## 📱 Mobile Responsive Design
+## 📱 Responsive Design
 
-Media query added for smaller screens:
+### 📲 Tablet View (`max-width: 768px`)
 
-```css id="um47v8"
-@media (max-width: 444px)
-```
+* Hero section stacks vertically
+* Text content centered
+* Typography scales down
+* Image resized proportionally
 
-### Mobile Layout Adjustments
+### 📱 Mobile View (`max-width: 576px`)
 
 * Navigation menu hidden
-* Hero sections stacked vertically
+* Hero layout changes to column layout
 * Full-width CTA button
-* Responsive image resizing
-* Reduced padding for smaller devices
+* Reduced spacing and padding
+* Optimized image sizing
 
 ---
 
 ## 📐 CSS Concepts Practiced
 
-| Concept                  | Usage                                 |
-| ------------------------ | ------------------------------------- |
-| `display: inline-block`  | Navbar and Hero section layout        |
-| `vertical-align: middle` | Aligning inline-block elements        |
-| `font-size: 0`           | Removing inline-block whitespace gaps |
-| `max-width`              | Preventing layout stretching          |
-| `transition`             | Smooth hover animations               |
-| `transform: scale()`     | Button hover zoom effect              |
-| `vw`, `vh`, `%` units    | Responsive sizing                     |
-| Media Queries            | Mobile responsiveness                 |
-| `box-sizing: border-box` | Predictable sizing behavior           |
+| Concept                  | Usage                        |
+| ------------------------ | ---------------------------- |
+| `display: flex`          | Navbar and Hero layout       |
+| `justify-content`        | Horizontal alignment         |
+| `align-items`            | Vertical alignment           |
+| `gap`                    | Consistent spacing           |
+| `max-width`              | Preventing layout stretching |
+| `transition`             | Smooth hover animations      |
+| `transform`              | Hover movement and scaling   |
+| `media queries`          | Responsive layouts           |
+| `box-sizing: border-box` | Predictable sizing           |
+| `vh`, `%`, `rem` units   | Responsive sizing            |
 
 ---
 
 ## 🚀 How to Run the Project
 
-1. Clone or download the repository
+### 1️⃣ Clone the Repository
 
-```bash id="k4n8r1"
+```bash
 git clone <repository-link>
 ```
 
-2. Open the project folder
+### 2️⃣ Open the Project Folder
 
-3. Run `index.html` in your browser
+```bash
+cd project-folder
+```
 
+### 3️⃣ Run the Project
+
+Open `index.html` in your browser.
+
+---
+
+## 🎯 Learning Outcomes
+
+Through this project, you practiced:
+
+* Responsive web design
+* Flexbox layouts
+* Clean UI structuring
+* Responsive typography
+* Hover animations
+* Media queries
+* Modern CSS styling techniques
+
+---
 
 ## 👨‍💻 Author
 
 **Kolla Tulasidas**
+
 Frontend Development Practice Project
