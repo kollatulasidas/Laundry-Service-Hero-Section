@@ -120,30 +120,6 @@ git clone <repository-link>
 
 3. Run `index.html` in your browser
 
----
-
-## 🔧 Future Improvements
-
-* Convert layout from `inline-block` to Flexbox
-* Add hamburger menu for mobile navigation
-* Improve accessibility using semantic HTML
-* Add subtle shadows and animations
-* Add tablet breakpoint responsiveness
-* Use `clamp()` for better responsive typography
-
----
-
-## 📚 Learning Outcome
-
-This project helped practice:
-
-* Traditional CSS layout techniques
-* Responsive web design fundamentals
-* UI spacing and alignment
-* Hover interactions and transitions
-* Structuring clean HTML and CSS code
-
----
 
 ## 👨‍💻 Author
 
