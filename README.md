@@ -1,76 +1,151 @@
+
 # 🧺 Laundry Service – Hero Section
 
-A responsive Hero Section web page for a laundry service, built using pure HTML and CSS (no Flexbox, no frameworks).
+A responsive Laundry Service landing page built using pure HTML5 and CSS3.
+This project focuses on mastering layout structuring with `display: inline-block`, responsive design techniques, and clean UI styling without using Flexbox, Grid, or external frameworks.
 
 ---
 
 ## 📋 Project Overview
 
-| Detail | Info |
-|---|---|
-| Project Type | Frontend Web Page |
-| Tech Used | HTML5, CSS3 |
-| Layout Method | Display Inline-Block |
-| Units Used | Viewport units (`vw`, `vh`) |
+| Detail            | Information             |
+| ----------------- | ----------------------- |
+| Project Type      | Frontend Landing Page   |
+| Technologies Used | HTML5, CSS3             |
+| Layout Technique  | `display: inline-block` |
+| Responsive Units  | `vw`, `vh`, `%`         |
+| Responsive Design | Media Queries           |
 
 ---
 
-## 🗂️ File Structure
+## 🗂️ Project Structure
 
-```
+```bash id="a7p9x2"
 project/
-├── index.html      # Main HTML file
-├── style.css       # Stylesheet
-└── README.md       # Project documentation
+├── index.html
+├── style.css
+└── README.md
 ```
 
 ---
 
 ## ✅ Features
 
-### Navbar
-- Logo aligned to the **left**
-- Navigation links (**Home, Service, About Us, Contact Us**) centered using `display: inline-block`
-- Username pill aligned to the **right**
-- Built using `display: inline-block` and `vertical-align: middle` — **no Flexbox, no floats**
+### 🧭 Responsive Navbar
 
-### Hero Section
-- Two-column layout using `display: inline-block` on `.left` and `.right`
-- **Left div** — Heading, description paragraph, and CTA button
-- **Right div** — Laundry illustration image
-- `max-width: 1400px` on `.hero` prevents content from stretching on large screens
-- All sizing uses **viewport units** (`vw`, `vh`) for responsiveness
+* Logo aligned to the left
+* Navigation links centered
+* Username section aligned to the right
+* Built entirely using:
 
-### Hover Effects
-- Nav links change to a **blue fill with white text** on hover
-- CTA button darkens and **scales up slightly** on hover
-- Both use `transition: 0.3s` for smooth animation
+  * `display: inline-block`
+  * `vertical-align: middle`
+* No Flexbox or float properties used
 
 ---
 
-## 🚀 How to Run
+### 🎯 Hero Section
 
-1. Clone or download the project folder
-2. Open `index.html` in any browser
+* Two-column responsive layout
+* Left section contains:
 
----
+  * Heading
+  * Description text
+  * CTA button
+* Right section contains:
 
-## 📐 CSS Concepts Used
-
-| Concept | Where Applied |
-|---|---|
-| `display: inline-block` | Navbar logo, nav, user — Hero left & right columns |
-| `vertical-align: middle` | Aligning navbar elements on the same baseline |
-| `font-size: 0` / `font-size: 16px` | Removing whitespace gaps between inline-block children |
-| `text-align: center` | Centering the navbar and nav links |
-| `max-width` | Capping hero width on large screens |
-| `transform: scale()` | Button zoom on hover |
-| `transition` | Smooth hover animations on links and button |
-| `vw / vh units` | Font sizes, padding, spacing throughout |
+  * Laundry service illustration
+* `max-width: 1400px` prevents excessive stretching on large screens
+* Responsive spacing and typography using viewport units
 
 ---
 
-## 👤 Author
+### ✨ Hover Effects
 
-**Kolla Tulasidas**  
-Assignment: Hero Section – Laundry Service Web App
+* Navigation links:
+
+  * Blue background
+  * White text on hover
+* CTA button:
+
+  * Background darkens
+  * Slight zoom effect using `transform: scale()`
+* Smooth animations using `transition`
+
+---
+
+## 📱 Mobile Responsive Design
+
+Media query added for smaller screens:
+
+```css id="um47v8"
+@media (max-width: 444px)
+```
+
+### Mobile Layout Adjustments
+
+* Navigation menu hidden
+* Hero sections stacked vertically
+* Full-width CTA button
+* Responsive image resizing
+* Reduced padding for smaller devices
+
+---
+
+## 📐 CSS Concepts Practiced
+
+| Concept                  | Usage                                 |
+| ------------------------ | ------------------------------------- |
+| `display: inline-block`  | Navbar and Hero section layout        |
+| `vertical-align: middle` | Aligning inline-block elements        |
+| `font-size: 0`           | Removing inline-block whitespace gaps |
+| `max-width`              | Preventing layout stretching          |
+| `transition`             | Smooth hover animations               |
+| `transform: scale()`     | Button hover zoom effect              |
+| `vw`, `vh`, `%` units    | Responsive sizing                     |
+| Media Queries            | Mobile responsiveness                 |
+| `box-sizing: border-box` | Predictable sizing behavior           |
+
+---
+
+## 🚀 How to Run the Project
+
+1. Clone or download the repository
+
+```bash id="k4n8r1"
+git clone <repository-link>
+```
+
+2. Open the project folder
+
+3. Run `index.html` in your browser
+
+---
+
+## 🔧 Future Improvements
+
+* Convert layout from `inline-block` to Flexbox
+* Add hamburger menu for mobile navigation
+* Improve accessibility using semantic HTML
+* Add subtle shadows and animations
+* Add tablet breakpoint responsiveness
+* Use `clamp()` for better responsive typography
+
+---
+
+## 📚 Learning Outcome
+
+This project helped practice:
+
+* Traditional CSS layout techniques
+* Responsive web design fundamentals
+* UI spacing and alignment
+* Hover interactions and transitions
+* Structuring clean HTML and CSS code
+
+---
+
+## 👨‍💻 Author
+
+**Kolla Tulasidas**
+Frontend Development Practice Project

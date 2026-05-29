@@ -79,18 +79,24 @@
     border-radius: 10px;
     color: #3498db;
 }
-
-/* .user span {
-    display: inline-block;
-    vertical-align: middle;
-    background: #c4dff4;
-    padding: 8px 16px;       
+```css
+.user {
+    width: 18%;
+    line-height: normal;
+    background-color: #c8e0f0;
+    text-align: center;
+    padding: 10px;
     border-radius: 10px;
     color: #3498db;
-    font-size: 14px;
-    font-weight: bold;
-} */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
 
+.user:hover {
+    background-color: #3498db;
+    color: #ffffff;
+    transform: scale(1.05);
+}
 
 /* ── HERO SECTION ── */
 
@@ -163,8 +169,7 @@
     display: inline-block;
     vertical-align: middle;                      
 }
-
-/* ── MOBILE VIEW BREAKPOINT (Add at the very end) ── */
+/* MOBILE VIEW  */
 
 @media (max-width: 444px) {
 
@@ -175,6 +180,7 @@
     .logo {
         width: 40%; 
         padding: 10px;
+        font-weight: bold;
     }
 
     
