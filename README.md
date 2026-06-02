@@ -1,27 +1,50 @@
-# 🧺 Laundry Service – Responsive Hero Section
+# 🧺 Laundry Service – Responsive Landing Page
 
-A responsive Laundry Service landing page built using pure HTML5 and CSS3.
+A modern and responsive Laundry Service landing page built using **HTML5** and **CSS3**.
 
-This project focuses on building clean and responsive layouts using modern CSS techniques such as Flexbox, media queries, responsive units, hover animations, and structured UI design principles.
+This project demonstrates responsive web design principles using **Flexbox**, **media queries**, **hover effects**, and clean UI layout techniques. The page adapts seamlessly across desktop, tablet, and mobile devices.
 
 ---
 
 ## 📋 Project Overview
 
-| Detail            | Information           |
-| ----------------- | --------------------- |
-| Project Type      | Frontend Landing Page |
-| Technologies Used | HTML5, CSS3           |
-| Layout Technique  | Flexbox               |
-| Responsive Units  | `%`, `vh`, `rem`      |
-| Responsive Design | Media Queries         |
+| Detail            | Information                           |
+| ----------------- | ------------------------------------- |
+| Project Type      | Responsive Landing Page               |
+| Technologies Used | HTML5, CSS3                           |
+| Layout Technique  | Flexbox                               |
+| Responsive Design | Desktop, Tablet, Mobile               |
+| CSS Features      | Flexbox, Media Queries, Hover Effects |
 
 ---
 
-## 🗂️ Project Structure
+## 🖼️ Project Preview
+
+### Desktop View
+
+* Full navigation menu
+* Two-column hero section
+* Large typography and image display
+
+### Tablet View (768px–1024px)
+
+* Optimized spacing and typography
+* Responsive image scaling
+* Maintains two-column layout
+
+### Mobile View (≤576px)
+
+* Navigation menu hidden
+* Hero section stacked vertically
+* Full-width responsive content
+
+---
+
+## 📁 Project Structure
 
 ```bash
-project/
+Laundry-Service/
+│
 ├── index.html
 ├── style.css
 └── README.md
@@ -33,128 +56,85 @@ project/
 
 ### 🧭 Responsive Navbar
 
-* Logo aligned to the left
-* Navigation links centered
-* User section aligned to the right
-* Built using:
-
-  * `display: flex`
-  * `justify-content`
-  * `align-items`
-* Smooth hover animations for links and buttons
-
----
+* Logo section
+* Navigation menu
+* User profile button
+* Smooth hover effects
+* Flexbox-based alignment
 
 ### 🎯 Hero Section
 
-* Responsive two-column layout
-* Left section contains:
+* Attractive laundry service headline
+* Informative description
+* Call-to-action button
+* Responsive illustration image
 
-  * Main heading
-  * Description text
-  * CTA button
-* Right section contains:
+### ✨ Interactive Effects
 
-  * Laundry service illustration
-* `max-width: 1400px` prevents excessive stretching on large screens
-* Proper spacing using `gap`
-* Fully responsive across desktop, tablet, and mobile devices
+* Navigation hover animation
+* Button hover transitions
+* Smooth UI interactions
 
----
+### 📱 Fully Responsive Design
 
-### ✨ Hover Effects
-
-#### Navigation Links
-
-* Blue background on hover
-* White text transition
-* Rounded hover effect
-
-#### CTA Button
-
-* Darker background on hover
-* Smooth hover animation
-* Slight lift effect using `transform`
-
-#### User Button
-
-* Color transition
-* Small scaling animation
-
----
-
-## 📱 Responsive Design
-
-### 📲 Tablet View (`max-width: 768px`)
-
-* Hero section stacks vertically
-* Text content centered
-* Typography scales down
-* Image resized proportionally
-
-### 📱 Mobile View (`max-width: 576px`)
-
-* Navigation menu hidden
-* Hero layout changes to column layout
-* Full-width CTA button
-* Reduced spacing and padding
-* Optimized image sizing
+* Desktop support
+* Tablet support
+* Mobile support
+* Adaptive layouts using media queries
 
 ---
 
 ## 📐 CSS Concepts Practiced
 
-| Concept                  | Usage                        |
-| ------------------------ | ---------------------------- |
-| `display: flex`          | Navbar and Hero layout       |
-| `justify-content`        | Horizontal alignment         |
-| `align-items`            | Vertical alignment           |
-| `gap`                    | Consistent spacing           |
-| `max-width`              | Preventing layout stretching |
-| `transition`             | Smooth hover animations      |
-| `transform`              | Hover movement and scaling   |
-| `media queries`          | Responsive layouts           |
-| `box-sizing: border-box` | Predictable sizing           |
-| `vh`, `%`, `rem` units   | Responsive sizing            |
+| Concept          | Purpose            |
+| ---------------- | ------------------ |
+| Flexbox          | Layout structure   |
+| Media Queries    | Responsive design  |
+| Hover Effects    | User interaction   |
+| Transitions      | Smooth animations  |
+| Box Model        | Consistent spacing |
+| Responsive Units | Flexible sizing    |
+| Border Radius    | Modern UI styling  |
 
 ---
 
-## 🚀 How to Run the Project
+## 🚀 How to Run
 
-### 1️⃣ Clone the Repository
-
-```bash
-git clone <repository-link>
-```
-
-### 2️⃣ Open the Project Folder
+### Clone the Repository
 
 ```bash
-cd project-folder
+git clone <repository-url>
 ```
 
-### 3️⃣ Run the Project
+### Open the Project
 
-Open `index.html` in your browser.
+```bash
+cd Laundry-Service
+```
 
----
+### Launch
+
+Open `index.html` in any modern web browser.
+
 
 ## 🎯 Learning Outcomes
 
-Through this project, you practiced:
+This project helped practice:
 
-* Responsive web design
+* Semantic HTML structure
 * Flexbox layouts
-* Clean UI structuring
-* Responsive typography
-* Hover animations
+* Responsive web design
 * Media queries
-* Modern CSS styling techniques
+* UI spacing and alignment
+* Hover animations
+* Mobile-first thinking
+* Frontend project organization
 
----
 
 ## 👨‍💻 Author
 
 **Kolla Tulasidas**
 
-Frontend Development Practice Project
+
+
+
