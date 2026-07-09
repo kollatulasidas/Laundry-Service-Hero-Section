@@ -1,140 +1,49 @@
-# 🧺 Laundry Service – Responsive Landing Page
+# Laundry Service - Responsive Landing Page
 
-A modern and responsive Laundry Service landing page built using **HTML5** and **CSS3**.
-
-This project demonstrates responsive web design principles using **Flexbox**, **media queries**, **hover effects**, and clean UI layout techniques. The page adapts seamlessly across desktop, tablet, and mobile devices.
+A simple responsive landing page for a laundry service built with HTML and CSS.
 
 ---
 
-## 📋 Project Overview
+## What I Used
 
-| Detail            | Information                           |
-| ----------------- | ------------------------------------- |
-| Project Type      | Responsive Landing Page               |
-| Technologies Used | HTML5, CSS3                           |
-| Layout Technique  | Flexbox                               |
-| Responsive Design | Desktop, Tablet, Mobile               |
-| CSS Features      | Flexbox, Media Queries, Hover Effects |
+- HTML5
+- CSS3 (Flexbox, Media Queries)
 
 ---
 
-## 🖼️ Project Preview
+## Pages / Sections
 
-### Desktop View
-
-* Full navigation menu
-* Two-column hero section
-* Large typography and image display
-
-### Tablet View (768px–1024px)
-
-* Optimized spacing and typography
-* Responsive image scaling
-* Maintains two-column layout
-
-### Mobile View (≤576px)
-
-* Navigation menu hidden
-* Hero section stacked vertically
-* Full-width responsive content
+- Navbar with logo, links and user button
+- Hero section with heading, description and a button
+- Responsive image on the right side
 
 ---
 
-## 📁 Project Structure
+## How It Looks on Different Screens
 
-```bash
-Laundry-Service/
-│
-├── index.html
-├── style.css
-└── README.md
-```
+**Desktop** - two column layout, full navbar visible
+
+**Tablet** - same layout but smaller font and spacing
+
+**Mobile** - navbar links hidden, hamburger menu shows, hero stacks vertically
 
 ---
 
-## ✅ Features
+## How to Run
 
-### 🧭 Responsive Navbar
-
-* Logo section
-* Navigation menu
-* User profile button
-* Smooth hover effects
-* Flexbox-based alignment
-
-### 🎯 Hero Section
-
-* Attractive laundry service headline
-* Informative description
-* Call-to-action button
-* Responsive illustration image
-
-### ✨ Interactive Effects
-
-* Navigation hover animation
-* Button hover transitions
-* Smooth UI interactions
-
-### 📱 Fully Responsive Design
-
-* Desktop support
-* Tablet support
-* Mobile support
-* Adaptive layouts using media queries
+Just download the files and open `index.html` in your browser. That's it.
 
 ---
 
-## 📐 CSS Concepts Practiced
+## What I Learned
 
-| Concept          | Purpose            |
-| ---------------- | ------------------ |
-| Flexbox          | Layout structure   |
-| Media Queries    | Responsive design  |
-| Hover Effects    | User interaction   |
-| Transitions      | Smooth animations  |
-| Box Model        | Consistent spacing |
-| Responsive Units | Flexible sizing    |
-| Border Radius    | Modern UI styling  |
+- Flexbox layout
+- Media queries for responsive design
+- Hover effects and transitions
+- How to make a hamburger menu with pure CSS
 
 ---
 
-## 🚀 How to Run
+## Author
 
-### Clone the Repository
-
-```bash
-git clone <repository-url>
-```
-
-### Open the Project
-
-```bash
-cd Laundry-Service
-```
-
-### Launch
-
-Open `index.html` in any modern web browser.
-
-
-## 🎯 Learning Outcomes
-
-This project helped practice:
-
-* Semantic HTML structure
-* Flexbox layouts
-* Responsive web design
-* Media queries
-* UI spacing and alignment
-* Hover animations
-* Mobile-first thinking
-* Frontend project organization
-
-
-## 👨‍💻 Author
-
-**Kolla Tulasidas**
-
-
-
-
+Kolla Tulasidas

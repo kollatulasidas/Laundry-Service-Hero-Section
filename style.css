@@ -5,9 +5,7 @@
     font-family: Arial, sans-serif;
 }
 
-/* =====================
-   NAVBAR
-===================== */
+/* navbar */
 
 .navbar {
     width: 100%;
@@ -50,6 +48,12 @@
     color: #fff;
 }
 
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
 .user {
     background-color: #c8e0f0;
     color: #3498db;
@@ -64,9 +68,81 @@
     color: #fff;
 }
 
-/* =====================
-   HERO SECTION
-===================== */
+
+/* hamburger menu */
+
+.mobile-menu {
+    display: none;
+    position: relative;
+}
+
+
+#menu-toggle {
+    display: none;
+}
+
+/* this is the ☰ icon the user clicks */
+.menu-btn {
+    font-size: 26px;
+    color: #34495e;
+    cursor: pointer;
+    padding: 4px 8px;
+    user-select: none;
+}
+
+
+.menu-list {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 65%;
+    height: 100vh;
+    background-color: #111;
+    z-index: 999;
+}
+
+
+.menu-list ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.menu-list ul li a {
+    display: block;
+    padding: 16px 30px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.menu-list ul li a:hover {
+    color: #3498db;
+}
+
+
+#menu-toggle:checked + .menu-btn + .menu-list {
+    display: block;
+}
+
+
+#menu-toggle:checked + .menu-btn {
+    color: #fff;
+    position: fixed;
+    top: 18px;
+    right: 20px;
+    z-index: 1000;
+    font-size: 28px;
+}
+
+
+/* hero section */
 
 .hero {
     width: 100%;
@@ -127,8 +203,9 @@
     height: auto;
 }
 
+   /* responsive styles */
 
-   /* TABLET VIEW */
+/* tablet (768px to 1024px) */
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
@@ -158,23 +235,18 @@
         padding: 40px 25px;
         gap: 20px;
         min-height: auto;
-        font-size: 40px;
     }
 
     .left h1 {
         font-size: 30px;
-        text-align: start;
     }
 
     .left p {
         font-size: 14px;
-        text-align: start;
-        
     }
 
     .left button {
         padding: 12px 22px;
-        float: left;
     }
 
     .right img {
@@ -184,60 +256,51 @@
 }
 
 
-   /* MOBILE VIEW */
+/* mobile (below 768px) */
 
+@media (max-width: 767px) {
 
-@media (max-width: 576px)and (max-width: 430px) {
+  
+    .navbar {
+        padding: 0 20px;
+    }
 
+   
     .nav {
         display: none;
     }
 
-    .navbar {
-        height: 60px;
-        padding: 0 5%;
+    /* show hamburger icon */
+    .mobile-menu {
+        display: block;
     }
 
-    .logo {
-        font-size: 22px;
-    }
-
-    .user {
-        font-size: 12px;
-        padding: 8px 12px;
-        font-weight: 700;
-    }
-
+    
     .hero {
         flex-direction: column;
-        text-align: center;
-        padding: 30px 20px;
-        gap: 25px;
+        padding: 40px 20px;
+        text-align: start;
+        min-height: auto;
     }
 
+  
     .left,
     .right {
         width: 100%;
     }
 
+
     .left h1 {
-        font-size: 32px;
-        text-align: start;
+        font-size: 28px;
     }
 
+  
     .left p {
         font-size: 14px;
-        text-align: start;
     }
 
-    .left button {
-        width: 70%;
-        float: left;
-        height: 50%;
-        font-weight: 700;
-    }
-
+ 
     .right img {
-        width: 100%;
+        width: 65%;
     }
 }
