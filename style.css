@@ -69,7 +69,7 @@
 }
 
 /* hamburger menu style */
-/* i used :focus on a button so no javascript is needed */
+
 
 .mobile-menu {
     display: none;
@@ -124,12 +124,10 @@
     color: #3498db;
 }
 
-/* this is the main trick - when button is focused, show the menu next to it */
 .menu-btn:focus + .menu-list {
     display: block;
 }
 
-/* change button color when menu is open */
 .menu-btn:focus {
     color: #fff;
     position: fixed;
