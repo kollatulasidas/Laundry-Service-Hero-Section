@@ -5,7 +5,7 @@
     font-family: Arial, sans-serif;
 }
 
-/* navbar */
+/* navbar style */
 
 .navbar {
     width: 100%;
@@ -68,29 +68,26 @@
     color: #fff;
 }
 
-
-/* hamburger menu */
+/* hamburger menu style */
+/* i used :focus on a button so no javascript is needed */
 
 .mobile-menu {
     display: none;
     position: relative;
 }
 
-
-#menu-toggle {
-    display: none;
-}
-
-/* this is the ☰ icon the user clicks */
+/* the ☰ button the user clicks to open the menu */
 .menu-btn {
+    background: none;
+    border: none;
     font-size: 26px;
     color: #34495e;
     cursor: pointer;
     padding: 4px 8px;
-    user-select: none;
+    outline: none;
 }
 
-
+/* the menu panel hidden by default */
 .menu-list {
     display: none;
     position: fixed;
@@ -100,9 +97,10 @@
     height: 100vh;
     background-color: #111;
     z-index: 999;
+    transition: 0.3s;
 }
 
-
+/* center the links in the middle of the menu */
 .menu-list ul {
     position: absolute;
     top: 50%;
@@ -126,13 +124,13 @@
     color: #3498db;
 }
 
-
-#menu-toggle:checked + .menu-btn + .menu-list {
+/* this is the main trick - when button is focused, show the menu next to it */
+.menu-btn:focus + .menu-list {
     display: block;
 }
 
-
-#menu-toggle:checked + .menu-btn {
+/* change button color when menu is open */
+.menu-btn:focus {
     color: #fff;
     position: fixed;
     top: 18px;
@@ -141,8 +139,7 @@
     font-size: 28px;
 }
 
-
-/* hero section */
+/* hero section style */
 
 .hero {
     width: 100%;
@@ -203,9 +200,7 @@
     height: auto;
 }
 
-   /* responsive styles */
-
-/* tablet (768px to 1024px) */
+/* tablet view */
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
@@ -255,27 +250,27 @@
     }
 }
 
+/* mobile view */
 
-/* mobile (below 768px) */
 
 @media (max-width: 767px) {
 
-  
+   
     .navbar {
         padding: 0 20px;
     }
 
-   
+  
     .nav {
         display: none;
     }
 
-    /* show hamburger icon */
+  
     .mobile-menu {
         display: block;
     }
 
-    
+  
     .hero {
         flex-direction: column;
         padding: 40px 20px;
@@ -283,23 +278,22 @@
         min-height: auto;
     }
 
-  
+   
     .left,
     .right {
         width: 100%;
     }
 
-
     .left h1 {
         font-size: 28px;
     }
 
-  
+
     .left p {
         font-size: 14px;
     }
 
- 
+  
     .right img {
         width: 65%;
     }
