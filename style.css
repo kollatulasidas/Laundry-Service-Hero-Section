@@ -196,12 +196,25 @@
     text-align: center;
 }
 
+/* image animation */
 .right img {
-    width: 80%;
+   width: 80%;
     max-width: 100%;
     height: auto;
+    animation: orbitrotation 3s ease-in-out infinite;
 }
-
+ 
+/* orbit rotation */
+@keyframes orbitrotation {
+    0%   { transform: translate(0px, -10px); }
+    25%  { transform: translate(10px, 0px); }
+    50%  { transform: translate(0px, 10px); }
+    75%  { transform: translate(-10px, 0px); }
+    90%  { transform: translate(0px, -10px) scaleX(0.8) scaleY(1); }
+    95%  { transform: translate(0px, -10px) scaleX(1) scaleY(0.8); }
+    100% { transform: translate(0px, -10px); }
+}
+ 
 /* tablet view */
 
 @media (min-width: 768px) and (max-width: 1024px) {
