@@ -183,9 +183,13 @@
     cursor: pointer;
     transition: 0.3s;
 }
+/* rotate the button slightly on hover */
 
-.left button:hover {
+/* .left button:hover {
     background: #217dbb;
+} */
+.left button:hover {
+    transform: rotate(-4deg) scale(1.1);
 }
 
 .right {
