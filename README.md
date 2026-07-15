@@ -1,58 +1,86 @@
 # Laundry Service - Responsive Landing Page
 
-A simple responsive landing page for a laundry service built with HTML and CSS.
+A modern and responsive landing page for a laundry service built using **HTML5** and **CSS3**. The project focuses on responsive design, smooth animations, and a clean user interface.
 
 ---
 
-## What I Used
+## 🚀 Technologies Used
 
-- HTML5
-- CSS3 (Flexbox, Media Queries, Animations)
+* HTML5
+* CSS3
 
----
-
-## Pages / Sections
-
-- Navbar with logo, links and user button
-- Hero section with heading, description and a button
-- Responsive image on the right side with animation
+  * Flexbox
+  * Media Queries
+  * CSS Animations
+  * CSS Transitions
 
 ---
 
-## How It Looks on Different Screens
+## 📌 Features
 
-**Desktop** - two column layout, full navbar visible
-
-**Tablet** - same layout but smaller font and spacing
-
-**Mobile** - navbar links hidden, hamburger menu shows, hero stacks vertically
-
----
-
-## Animation
-
-- Hero image moves in a smooth orbit (circular motion)
-- Image squeezes at the end of each orbit cycle
+* Responsive navigation bar with logo, navigation links, and user button
+* Hero section with a headline, description, and call-to-action button
+* Animated hero image with orbit and squeeze effects
+* Fully responsive layout for desktop, tablet, and mobile devices
+* Pure CSS hamburger menu for mobile navigation
+* Smooth hover effects and transitions
 
 ---
 
-## How to Run
+## 📱 Responsive Design
 
-Just download the files and open `index.html` in your browser. That's it.
+### Desktop
+
+* Two-column hero layout
+* Full navigation menu
+* Optimized spacing and typography
+
+### Tablet
+
+* Adjusted font sizes and spacing
+* Maintains two-column layout for better readability
+
+### Mobile
+
+* Hero section stacks vertically
+* Navigation links collapse into a hamburger menu
+* Optimized buttons and content spacing
 
 ---
 
-## What I Learned
+## ✨ Animation
 
-- Flexbox layout
-- Media queries for responsive design
-- Hover effects and transitions
-- How to make a hamburger menu with pure CSS
-- CSS keyframe animations
-- How to use orbit and squeeze animation together
+The hero image includes a custom CSS animation that:
+
+* Moves in a smooth circular orbit.
+* Applies a squash-and-stretch (squeeze) effect at the end of each orbit cycle.
+* Creates a seamless looping animation
 
 ---
 
-## Author
+## ▶️ Getting Started
 
-Kolla Tulasidas
+1. Download or clone the project.
+2. Open the project folder.
+3. Launch `index.html` in your preferred web browser.
+
+No additional setup or dependencies are required.
+
+---
+
+## 📚 Learning Outcomes
+
+During this project, I learned:
+
+* Building responsive layouts using Flexbox
+* Creating responsive designs with Media Queries
+* Implementing hover effects and smooth transitions
+* Building a hamburger menu using only CSS
+* Creating custom CSS keyframe animations
+* Combining orbit motion with squash-and-stretch effects for interactive UI animations
+
+---
+
+## 👨‍💻 Author
+
+**Kolla Tulasidas**
