@@ -198,7 +198,7 @@
     width: 80%;
     max-width: 100%;
     height: auto;
-    animation: orbitRotation 1s ease-in-out infinite;
+    animation: orbitRotation 3s ease-in-out infinite;
 }
 
 /* Orbit Rotation */
