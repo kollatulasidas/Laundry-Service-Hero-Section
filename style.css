@@ -205,11 +205,11 @@
 @keyframes orbitRotation {
 
     0% { 
-        transform: rotate(0deg) translateX(20px) rotate(0deg);
+        transform: rotate(0deg) translateX(20px) rotate(0deg)scaleX(0.85) scaleY(1.15);
     }
     /* Top */
     25% {
-        transform: rotate(90deg) translateX(20px) rotate(-90deg)  scaleX(0.85) scaleY(1.15) ;
+        transform: rotate(90deg) translateX(20px) rotate(-90deg) ;
     }
     /* Right */
     50% {
