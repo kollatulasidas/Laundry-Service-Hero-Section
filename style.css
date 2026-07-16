@@ -202,28 +202,33 @@
 }
 
 /* Orbit Rotation */
-@keyframes orbitRotation {
+@keyframes orbitRotation { 
 
-    0% { 
-        transform: rotate(0deg) translateX(20px) rotate(0deg)scaleX(0.85) scaleY(1.15);
+    0% {
+        transform: rotate(0deg) translateX(30px) rotate(0deg) scale(1);
     }
-    /* Top */
-    25% {
-        transform: rotate(90deg) translateX(20px) rotate(-90deg) ;
+
+    20% {
+        transform: rotate(72deg) translateX(30px) rotate(-72deg) scale(0.8);
     }
-    /* Right */
-    50% {
-        transform: rotate(180deg) translateX(20px) rotate(-180deg) ;    
+
+    40% {
+        transform: rotate(144deg) translateX(30px) rotate(-144deg) scale(1);
     }
-    /* Bottom */
-    75% {
-        transform: rotate(270deg) translateX(20px) rotate(-270deg) ;   
+
+    60% {
+        transform: rotate(216deg) translateX(30px) rotate(-216deg) scale(0.75);
     }
-    /* Back to Left */
+
+    80% {
+        transform: rotate(288deg) translateX(30px) rotate(-288deg) scale(1);
+    }
+
     100% {
-        transform: rotate(360deg) translateX(20px) rotate(-360deg) scaleY(1.15) scaleX(0.85);
+        transform: rotate(360deg) translateX(0px) rotate(-360deg) scale(1);
     }
 }
+
 /* tablet view */
 
 @media (min-width: 768px) and (max-width: 1024px) {
