@@ -208,11 +208,11 @@
 
 20% {transform: rotate(72deg) translateX(30px) rotate(-72deg) scale(1);}
 
-40% {transform: rotate(144deg) translateX(30px) rotate(-144deg) scaley(0.9);}
+40% {transform: rotate(144deg) translateX(30px) rotate(-144deg) scaleY(0.9);}
 
-60% {transform: rotate(216deg) translateX(30px) rotate(-216deg) scalex(0.9);}
+60% {transform: rotate(216deg) translateX(30px) rotate(-216deg) scaleX(0.9);}
 
-80% {transform: rotate(288deg) translateX(30px) rotate(-288deg) scalex(0.8);}
+80% {transform: rotate(288deg) translateX(30px) rotate(-288deg) scaleX(0.8);}
 
 100% {transform: rotate(360deg) translateX(0px) rotate(-360deg) scale(1);}
 
