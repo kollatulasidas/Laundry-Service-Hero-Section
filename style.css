@@ -198,35 +198,24 @@
     width: 80%;
     max-width: 100%;
     height: auto;
-    animation: orbitRotation 4s ease-in-out infinite;
+    animation: orbitRotation 3s ease-in-out infinite;
 }
 
 /* Orbit Rotation */
 @keyframes orbitRotation { 
 
-    0% {
-        transform: rotate(0deg) translateX(30px) rotate(0deg) scale(1);
-    }
+0% {transform: rotate(0deg) translateX(30px) rotate(0deg) scale(1);}
 
-    20% {
-        transform: rotate(72deg) translateX(30px) rotate(-72deg) scale(1);
-    }
+20% {transform: rotate(72deg) translateX(30px) rotate(-72deg) scale(1);}
 
-    40% {
-        transform: rotate(144deg) translateX(30px) rotate(-144deg) scaley(0.9);
-    }
+40% {transform: rotate(144deg) translateX(30px) rotate(-144deg) scaley(0.9);}
 
-    60% {
-        transform: rotate(216deg) translateX(30px) rotate(-216deg) scalex(0.9);
-    }
+60% {transform: rotate(216deg) translateX(30px) rotate(-216deg) scalex(0.9);}
 
-    80% {
-        transform: rotate(288deg) translateX(30px) rotate(-288deg) scalex(0.8);
-    }
+80% {transform: rotate(288deg) translateX(30px) rotate(-288deg) scalex(0.8);}
 
-    100% {
-        transform: rotate(360deg) translateX(0px) rotate(-360deg) scale(1);
-    }
+100% {transform: rotate(360deg) translateX(0px) rotate(-360deg) scale(1);}
+
 }
 
 /* tablet view */

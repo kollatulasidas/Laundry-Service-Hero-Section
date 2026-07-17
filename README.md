@@ -1,86 +1,80 @@
 # Laundry Service - Responsive Landing Page
 
-A modern and responsive landing page for a laundry service built using **HTML5** and **CSS3**. The project focuses on responsive design, smooth animations, and a clean user interface.
+# Project Overview
+
+This project is a responsive landing page for a laundry service built using HTML5 and CSS3. The goal was to create a clean, responsive interface and improve my understanding of CSS animations by implementing an orbit animation with a squeeze effect.
+
+# Technologies Used
+
+. HTML5
+. CSS3
+. Flexbox
+. Media Queries
+. CSS Animations
+. CSS Keyframes
+. CSS Transforms
+. CSS Transitions
+
+# Features
+
+. Responsive navigation bar
+. Responsive hero section
+. Mobile-friendly hamburger menu
+. Animated hero image
+. Smooth hover effects
+. Works on desktop, tablet, and mobile devices
+
+# Responsive Design
+
+. Used Flexbox to create a responsive layout.
+. Used Media Queries to adjust the layout for different screen sizes.
+. Ensured that text, images, and buttons resize properly on smaller devices.
 
 ---
 
-## 🚀 Technologies Used
+# Animation
 
-* HTML5
-* CSS3
+I created two animations for the hero image.
 
-  * Flexbox
-  * Media Queries
-  * CSS Animations
-  * CSS Transitions
+# Orbit Animation
+. The image moves around a center point in a circular path.
+. I learned that orbit motion is created by combining rotation and translation.
+. I tested different orbit distances and animation speeds before selecting the final values.
 
----
+# Squeeze Animation
+. The image stretches and compresses at multiple points during the animation.
+. I applied the squeeze effect at different keyframe percentages instead of only at the beginning and end.
+. I adjusted the scale values several times until the animation looked smooth.
 
-## 📌 Features
 
-* Responsive navigation bar with logo, navigation links, and user button
-* Hero section with a headline, description, and call-to-action button
-* Animated hero image with orbit and squeeze effects
-* Fully responsive layout for desktop, tablet, and mobile devices
-* Pure CSS hamburger menu for mobile navigation
-* Smooth hover effects and transitions
 
----
+# Challenges Faced
 
-## 📱 Responsive Design
+During the first version of the project, the image rotated in place instead of moving in a circular orbit. After learning how CSS transforms work, I changed the animation so the image follows a true orbit around a center point.
 
-### Desktop
+My first squeeze animation only changed at the start and end of the animation. I improved it by adding squeeze effects at multiple keyframe percentages and testing different scale values to make the movement more noticeable.
 
-* Two-column hero layout
-* Full navigation menu
-* Optimized spacing and typography
+I also experimented with different animation durations and orbit distances to achieve smoother motion.
 
-### Tablet
 
-* Adjusted font sizes and spacing
-* Maintains two-column layout for better readability
-
-### Mobile
-
-* Hero section stacks vertically
-* Navigation links collapse into a hamburger menu
-* Optimized buttons and content spacing
-
----
-
-## ✨ Animation
-
-The hero image includes a custom CSS animation that:
-
-* Moves in a smooth circular orbit.
-* Applies a squash-and-stretch (squeeze) effect at the end of each orbit cycle.
-* Creates a seamless looping animation
-
----
-
-## ▶️ Getting Started
-
-1. Download or clone the project.
-2. Open the project folder.
-3. Launch `index.html` in your preferred web browser.
-
-No additional setup or dependencies are required.
-
----
-
-## 📚 Learning Outcomes
+# What I Learned
 
 During this project, I learned:
 
-* Building responsive layouts using Flexbox
-* Creating responsive designs with Media Queries
-* Implementing hover effects and smooth transitions
-* Building a hamburger menu using only CSS
-* Creating custom CSS keyframe animations
-* Combining orbit motion with squash-and-stretch effects for interactive UI animations
+. How CSS Keyframes control an animation using different percentage values.
+. How each keyframe changes the position and appearance of an element.
+. How the transform property combines multiple effects in a single animation.
+. How translate() moves an element.
+. How rotate() creates circular motion.
+. How scale(), scaleX(), and scaleY() create squeeze and stretch effects.
+. The difference between CSS Animations and CSS Transitions.
+. The importance of testing and refining animation values instead of using the first version.
 
----
 
-## 👨‍💻 Author
+# Conclusion
+
+This project improved my understanding of responsive web design and CSS animations. By experimenting with keyframes, transforms, and animation timing, I gained practical experience in creating smooth orbit animations and responsive user interfaces.
+
+# Author
 
 **Kolla Tulasidas**
